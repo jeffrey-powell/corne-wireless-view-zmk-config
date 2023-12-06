@@ -52,9 +52,9 @@
 
             label = "Base";
             bindings = <
-&none  &kp Q  &kp W  &kp F       &kp P  &kp B            &kp J      &kp L      &kp U      &kp Y    &kp SEMICOLON  &none
-&none  &kp A  &kp R  &kp S       &kp T  &kp G            &kp M      &kp N      &kp E      &kp I    &kp O          &none
-&none  &kp Z  &kp X  &tdCopy     &kp D  &tdPaste         &kp K      &kp H      &kp COMMA  &kp DOT  &kp FSLH       &none
+&none  &kp Q  &kp W  &kp F       &kp P  &kp B            &kp J      &kp L      &kp U      &kp Y    &kp SQT   &none
+&none  &kp A  &kp R  &kp S       &kp T  &kp G            &kp M      &kp N      &kp E      &kp I    &kp O     &none
+&none  &kp Z  &kp X  &tdCopy     &kp D  &tdPaste         &kp K      &kp H      &kp COMMA  &kp DOT  &kp FSLH  &none
                      &kp LSHIFT  &td01  &kp BACKSPACE    &kp ENTER  &kp SPACE  &kp LCTRL
             >;
         };
