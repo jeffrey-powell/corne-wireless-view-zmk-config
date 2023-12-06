@@ -61,6 +61,14 @@
 
             tapping-term-ms = <175>;
         };
+
+        tdLayer3: tdLayer3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDLAYER3";
+            #binding-cells = <0>;
+            bindings = <&lt 3 ENTER>;
+            tapping-term-ms = <175>;
+        };
     };
 
     keymap {
@@ -78,7 +86,7 @@
 &none  &kp Q    &kp W   &kp F       &kp P          &kp B        &kp J      &kp L      &kp U      &kp Y    &kp SQT   &none
 &none  &kp A    &kp R   &kp S       &kp T          &kp G        &kp M      &kp N      &kp E      &kp I    &kp O     &none
 &none  &tdUndo  &tdcut  &tdCopy     &kp D          &tdPaste     &kp K      &kp H      &kp COMMA  &kp DOT  &kp FSLH  &none
-                        &kp LSHIFT  &tdLayer2and3  &tdLayer1    &kp ENTER  &kp SPACE  &kp LCTRL
+                        &kp LSHIFT  &tdLayer2and3  &tdLayer1    &tdLayer3  &kp SPACE  &kp LCTRL
             >;
         };
 
