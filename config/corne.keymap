@@ -32,14 +32,14 @@
             label = "TDCOPY";
             #binding-cells = <0>;
             tapping-term-ms = <175>;
-            bindings = <&kp C>, <&kp K_COPY>;
+            bindings = <&kp C>, <&kp LC(C)>;
         };
 
         tdPaste: tdPaste {
             compatible = "zmk,behavior-tap-dance";
             label = "TDPASTE";
             #binding-cells = <0>;
-            bindings = <&kp V>, <&kp K_PASTE>;
+            bindings = <&kp V>, <&kp LC(V)>;
 
             tapping-term-ms = <175>;
         };
@@ -48,7 +48,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TDUNDO";
             #binding-cells = <0>;
-            bindings = <&kp Z>, <&kp K_UNDO>;
+            bindings = <&kp Z>, <&kp LC(Z)>;
 
             tapping-term-ms = <175>;
         };
@@ -57,7 +57,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TDCUT";
             #binding-cells = <0>;
-            bindings = <&kp X>, <&kp K_CUT>;
+            bindings = <&kp X>, <&kp LC(X)>;
 
             tapping-term-ms = <175>;
         };
