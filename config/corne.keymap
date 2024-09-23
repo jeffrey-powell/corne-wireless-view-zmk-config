@@ -125,10 +125,10 @@
 
         arrows {
             bindings = <
-&trans  &kp DELETE    &kp HOME  &kp UP_ARROW  &kp END    &trans           &kp LC(LA(DELETE))  &kp LG(L)  &kp LG(R)  &trans  &bt BT_CLR_ALL  &trans
-&trans  &kp LC(LEFT)  &kp LEFT  &kp DOWN      &kp RIGHT  &kp LC(RIGHT)    &trans              &trans     &trans     &trans  &trans          &trans
-&trans  &trans        &trans    &trans        &trans     &trans           &trans              &trans     &trans     &trans  &trans          &trans
-                                &trans        &trans     &trans           &trans              &trans     &trans
+&trans  &kp DELETE    &kp HOME  &kp UP_ARROW  &kp END    &trans           &kp LC(LA(DELETE))  &kp LG(L)     &kp LG(R)     &trans  &bt BT_CLR_ALL  &trans
+&trans  &kp LC(LEFT)  &kp LEFT  &kp DOWN      &kp RIGHT  &kp LC(RIGHT)    &trans              &trans        &trans        &trans  &trans          &trans
+&trans  &trans        &trans    &trans        &trans     &trans           &bt BT_SEL 0        &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans          &trans
+                                &trans        &trans     &trans           &trans              &trans        &trans
             >;
         };
     };
