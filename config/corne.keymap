@@ -70,6 +70,13 @@
             bindings = <&lt 3 ENTER>;
             tapping-term-ms = <175>;
         };
+
+        tdControlAlt: tdControlAlt {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDCONTROLALT";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>;
+        };
     };
 
     keymap {
